@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "524107559313",
+    "project_id": "finalpro-mobile",
+    "storage_bucket": "finalpro-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524107559313:android:0b4733114205905431aa30",
+        "android_client_info": {
+          "package_name": "com.example.finalpro_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524107559313-cl9jubs291ht54kb2msscmv7mvkd3asf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvPpaePMoA0VLGSBO-qFUPBZnT6J-8tZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524107559313-cl9jubs291ht54kb2msscmv7mvkd3asf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524107559313-ckicg6v4c6o7k47klki26hbtu61imf82.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.finalproMobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>524107559313-ckicg6v4c6o7k47klki26hbtu61imf82.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.524107559313-ckicg6v4c6o7k47klki26hbtu61imf82</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCH4l0AVWIWkK7c5Ehq9Jj-G3LYu7BpK5U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>524107559313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.finalproMobile</string>
+	<key>PROJECT_ID</key>
+	<string>finalpro-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>finalpro-mobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:524107559313:ios:76d96cf5fe5c87b431aa30</string>
+</dict>
+</plist>
