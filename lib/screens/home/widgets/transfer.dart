@@ -6,7 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class TransferPage extends StatefulWidget {
-  TransferPage({super.key});
+  const TransferPage({super.key});
 
   @override
   State<TransferPage> createState() => _TransferPageState();
@@ -25,8 +25,9 @@ class _TransferPageState extends State<TransferPage> {
 
     return Scaffold(
       appBar: AppBar(
+          backgroundColor: Colors.orange,
           // automaticallyImplyLeading: false,
-          title: Text('Siapa yang ingin anda transfer?')),
+          title: Text('Transfer Page')),
       body: SafeArea(
         maintainBottomViewPadding: false,
         child: Container(
@@ -36,12 +37,6 @@ class _TransferPageState extends State<TransferPage> {
             builder: (context, snapshot) {
               if (snapshot.hasData) {
                 return ListView.builder(
-                  // gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                  //     maxCrossAxisExtent: 320,
-                  //     mainAxisExtent: 80,
-                  //     childAspectRatio: 3 / 2,
-                  //     crossAxisSpacing: 10,
-                  //     mainAxisSpacing: 20),
                   itemCount: snapshot.data!.docs.length,
                   itemBuilder: (context, index) {
                     DocumentSnapshot data = snapshot.data!.docs[index];
@@ -153,12 +148,6 @@ class _TransferPageState extends State<TransferPage> {
                           padding: EdgeInsets.all(5),
                           child: Container(
                             padding: EdgeInsets.all(5),
-                            // decoration: BoxDecoration(
-                            //   image: DecorationImage(
-                            //       image: AssetImage("icons/medal.png"),
-                            //       scale: 1.0,
-                            //       fit: BoxFit.cover),
-                            //   borderRadius: BorderRadius.circular(16),
                             // ),
                             child: ListTile(
                               title: Image.asset(

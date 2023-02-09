@@ -31,6 +31,10 @@ class _MainScreenState extends State<MainScreen> {
         ),
         bottomNavigationBar: Container(
           decoration: BoxDecoration(
+            gradient: LinearGradient(colors: [
+              Colors.red,
+              Colors.orange,
+            ]),
             boxShadow: [
               BoxShadow(
                 color: Colors.black45,
@@ -38,11 +42,10 @@ class _MainScreenState extends State<MainScreen> {
                 spreadRadius: 0,
               )
             ],
-            color: Color.fromARGB(255, 224, 223, 217),
           ),
           child: TabBar(
               indicator: BoxDecoration(
-                  color: Color.fromARGB(255, 150, 146, 144),
+                  color: Color.fromARGB(255, 233, 222, 216),
                   borderRadius: BorderRadius.circular(60)),
               indicatorSize: TabBarIndicatorSize.values.first,
               labelColor: Color.fromARGB(255, 27, 4, 234),

@@ -199,7 +199,7 @@ class ActivityItems extends StatelessWidget {
     CollectionReference history =
         firestore.collection('users/${user!.uid}/History');
     return StreamBuilder<QuerySnapshot>(
-        stream: history.snapshots(),
+        stream: history.orderBy('tanggal', descending: true).snapshots(),
         builder: (context, snapshot) {
           if (!snapshot.hasData) {
             return Text('Data tidak ditemukan.');
@@ -233,24 +233,20 @@ class ActivityItems extends StatelessWidget {
                       children: [
                         Stack(
                           children: [
-                            Image.asset(
-                              'icons/man.png',
-                              height: 50,
+                            Column(
+                              children: [
+                                data['jenis'] == "TOP UP"
+                                    ? Image.asset(
+                                        'icons/topuphis.png',
+                                        height: 50,
+                                      )
+                                    : Image.asset(
+                                        'icons/transferhis.png',
+                                        height: 50,
+                                      )
+                              ],
                             ),
-                            Positioned(
-                              bottom: 0,
-                              left: 27,
-                              child: Container(
-                                padding: EdgeInsets.all(0.3),
-                                decoration: BoxDecoration(
-                                    color: Colors.blue,
-                                    border: Border.all(
-                                      color: Colors.white,
-                                      width: 1,
-                                    ),
-                                    borderRadius: BorderRadius.circular(50)),
-                              ),
-                            ),
+                            //
                           ],
                         ),
 

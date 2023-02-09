@@ -49,6 +49,15 @@ dependencies:
   flutter_settings_ui: ^2.0.1
   dropdown_search: ^5.0.5
   awesome_dialog: ^3.0.2
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/launcher/wallet.png"
+  web:
+    generate: true
+    image_path: "assets/icons/launcher/wallet.png"
 
 dev_dependencies:
   flutter_test:

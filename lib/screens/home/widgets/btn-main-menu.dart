@@ -75,7 +75,10 @@ class MenuIcon extends StatelessWidget {
           icon: Image.asset(imageAsset),
           iconSize: 50,
         ),
-        Text(title),
+        Text(
+          title,
+          style: TextStyle(color: Colors.white),
+        ),
       ],
     );
   }

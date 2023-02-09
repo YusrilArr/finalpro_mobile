@@ -18,17 +18,6 @@ class _HomePageState extends State<HomePage> {
     return Container(
       child: SingleChildScrollView(
         child: Container(
-          // color: Colors.white,
-          // decoration: BoxDecoration(
-          //   gradient: LinearGradient(
-          //     colors: [
-          //       Colors.orange,
-          //       Colors.red,
-          //     ],
-          //     begin: Alignment.topCenter,
-          //     end: Alignment.bottomCenter,
-          //   ),
-          // ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
